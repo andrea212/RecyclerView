@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/logosplash"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/realmadrid"
+        />
+    <TextView
+        android:id="@+id/txtapplicationname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REAL MADRID APP"
+        android:textColor="#C31306"
+        android:layout_below="@+id/logosplash"
+        android:layout_centerInParent="true"
+        android:textSize="17dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:id="@+id/txtapplicationversion"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logosplash"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="181dp"
+        android:text="  V 1.0"
+        android:textColor="#090808"
+        android:textSize="15dp" />
+
+    <ProgressBar
+        android:id="@+id/progresbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtapplicationname" />
+
+
+</RelativeLayout>
