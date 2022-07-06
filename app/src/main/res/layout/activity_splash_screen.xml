@@ -16,7 +16,7 @@
         android:id="@+id/txtapplicationname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="REAL MADRID APP"
+        android:text="REAL MADRID CF"
         android:textColor="#C31306"
         android:layout_below="@+id/logosplash"
         android:layout_centerInParent="true"
